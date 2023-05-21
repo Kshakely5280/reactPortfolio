@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-      <footer>
+      <footer className="footer-container">
         <div className="social-icons">
           <a href="https://github.com/kshakely5280">
             <FaGithub />
