@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const AboutMe = () => {
   return (
     <div>
-      hello thjis is a test
+      WHY CAN YOU SEE THIS
     </div>
   );
 };

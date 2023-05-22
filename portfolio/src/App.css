@@ -1,5 +1,8 @@
-import '.app.css';
 
+
+.about-me {
+  background-color: aquamarine;
+}
 
 .footer-container {
   position: fixed;
