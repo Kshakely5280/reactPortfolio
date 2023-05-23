@@ -8,10 +8,10 @@ const Footer = () => {
         <a href="https://github.com/kshakely5280" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/your-linkedin-profile-url" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/kyle-shakely-78528a70/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://www.facebook.com/your-facebook-profile-url" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com//kyle.christian.7712/" target="_blank" rel="noopener noreferrer">
           <FaFacebook />
         </a>
       </div>
