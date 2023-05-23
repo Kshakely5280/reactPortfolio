@@ -19,8 +19,9 @@ body {
 .nav-menu {
   list-style: none;
   display: flex;
+  height: 3rem;
   justify-content: center;
-  padding: 0;
+  padding: 20;
   margin: 0;
   background-color: #0c7489; /* Set the background color for the navigation bar */
 }
@@ -34,6 +35,47 @@ body {
 .nav-link:hover {
   background-color: #13505b;
 }
+
+.contact-form {
+  background-color: #d7d9ce; /* Set the background color for the contact form */
+  padding: 20px;
+}
+
+.contact-form h2 {
+  color: #13505b; /* Set the text color for the heading */
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  color: #d7d9ce; /* Set the text color for the labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #f2f2f2; /* Set the background color for the input fields and textarea */
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%; /* Add this line to set the width of the input fields and textarea */
+}
+
+
+.contact-form textarea {
+  height: 150px; /* Adjust the height of the textarea */
+}
+
+.contact-form button {
+  background-color: #0c7489; /* Set the background color for the submit button */
+  color: #d7d9ce; /* Set the text color for the submit button */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #13505b; /* Set the background color for the submit button on hover */
+}
+
 
 .footer-container {
   display: flex;
@@ -59,4 +101,8 @@ body {
 
 .footer-text {
   margin-top: 10px;
+}
+
+.error-message {
+  color: red;
 }
