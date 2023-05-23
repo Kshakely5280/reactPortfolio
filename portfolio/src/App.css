@@ -112,3 +112,23 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
+.aboutContainer {
+  display: flex;
+  align-items: center;
+}
+
+.picDiv {
+  display: flex;
+  max-width: 25%;
+}
+
+.picDiv img {
+  max-width: 100%;
+  height: auto;
+}
+
+.textDiv {
+  flex: 1;
+  margin-left: 10px;
+}
