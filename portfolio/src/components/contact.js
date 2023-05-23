@@ -51,16 +51,16 @@ const Contact = () => {
         <p className="thank-you-message">Thank you! I will be in contact with you soon.</p>
       ) : (
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" value={name} onChange={handleNameChange} placeholder="Enter your name" />
           </div>
-          <div>
+          <div className="form-group">
             <label htmlFor="email">Email:</label>
             <input type="text" id="email" value={email} onChange={handleEmailChange} placeholder="Enter your email address" />
             {showError && <span className="error-message">Please enter a valid email address.</span>}
           </div>
-          <div>
+          <div className="form-group">
             <label htmlFor="message">Message:</label>
             <textarea id="message" value={message} onChange={handleMessageChange} placeholder="Enter your message"></textarea>
           </div>
