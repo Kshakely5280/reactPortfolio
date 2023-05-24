@@ -64,7 +64,7 @@ body {
 }
 
 .contact-form textarea {
-  height: auto; /* Adjust the height of the textarea */
+  height: 50rem; /* Adjust the height of the textarea */
 }
 
 .contact-form button {
@@ -176,4 +176,58 @@ body {
 
 .button:hover {
   background-color: darkgray;
+}
+
+.project-list {
+  color: black;
+}
+
+.portfolioAbout {
+  color: black;
+}
+
+.portfolio-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.portfolio-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio-about {
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.project-card {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  margin-bottom: 10px;
+}
+
+.project-link {
+  display: inline-block;
+  color: #0c7489;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
 }

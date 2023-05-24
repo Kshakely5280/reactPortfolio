@@ -3,41 +3,37 @@ import React from 'react';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1',
-      githubLink: 'https://github.com/project1',
+      title: 'Portfolio V1',
+      description: 'In our 2nd week of coding bootcamp, with little more than a basic knowledge of HTML and CSS, I built my first portfolio',
+      githubLink: 'https://github.com/Kshakely5280/portolio_v1'
     },
     {
-      title: 'Project 2',
-      description: 'Description of Project 2',
-      githubLink: 'https://github.com/project2',
+      title: 'Weather App',
+      description: 'This was my first challenge that really offered a breakthrough for my knowledge. Being able to call APIs and return  information that you can filter and display dynamically really grabbed my excitement',
+      githubLink: 'https://github.com/Kshakely5280/weather_app',
     },
     {
-      title: 'Project 3',
-      description: 'Description of Project 3',
-      githubLink: 'https://github.com/project3',
+      title: 'MVC Project',
+      description: 'This project was myself, and my classmates first attempt at building a complete website with functional API calls while using the MVC format. We even discovered a new technology called Phaser which allowed me to build my first platform jumping game!',
+      githubLink: 'https://github.com/Kshakely5280/MVC_project',
     },
-    // Add more project objects as needed
+  
   ];
 
   return (
-    <div>
-      <h2>Current Portfolio</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus arcu ac metus
-        placerat, eget mattis felis fermentum. Suspendisse faucibus mi at arcu hendrerit, sed
-        blandit felis rutrum. Sed efficitur pulvinar velit, id pretium eros feugiat vitae.
-        Suspendisse consequat luctus elit, non tempus neque dictum eu. Fusce vel luctus enim.
+    <div className="portfolio-container">
+      <h2 className="portfolio-title">Current Portfolio</h2>
+      <p className="portfolio-about">
+        Throughout my bootcamp journey, I have encountered some challenges that truly stumped me. There has been dozens of highs and lows at each step in this process, to reach this final stage has been an overwhelmingly satisfying achievement. Please take a moment to see below a handful of projects that are a representation of my growth and most proud coding accomplishments.
       </p>
 
-      <h2>My Projects</h2>
+      <h2 className="portfolio-title">My Projects</h2>
       <div className="project-list">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.githubLink}>GitHub Repo</a>
-            {/* Add additional info section here */}
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <a href={project.githubLink} className="project-link">Click here to visit Repo</a>
           </div>
         ))}
       </div>
