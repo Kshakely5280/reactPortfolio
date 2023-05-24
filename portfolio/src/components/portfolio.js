@@ -1,4 +1,5 @@
 import React from 'react';
+import Particles from './particles';
 
 const Portfolio = () => {
   const projects = [
@@ -22,6 +23,8 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-container">
+            <Particles className="particleContainer" />
+
       <h2 className="portfolio-title">Current Portfolio</h2>
       <p className="portfolio-about">
         Throughout my bootcamp journey, I have encountered some challenges that truly stumped me. There has been dozens of highs and lows at each step in this process, to reach this final stage has been an overwhelmingly satisfying achievement. Please take a moment to see below a handful of projects that are a representation of my growth and most proud coding accomplishments.

@@ -21,7 +21,7 @@ const AboutMe = () => {
             <>
               <p>
                 Hi there! My name is Kyle Shakely, and I'm an aspiring
-                programmer. Welcome to my coding portfolio website!
+                programmer. Welcome to my coding portfolio website! Try clicking around on the background.
               </p>
               <p>
                 Apart from coding, I have a deep passion for cars, hiking, and
