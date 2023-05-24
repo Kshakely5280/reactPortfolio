@@ -33,5 +33,5 @@ const Resume = () => {
     </div>
   );
 };
-
+// needs a link for resume download
 export default Resume;
