@@ -8,7 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #d7d9ce;
+  color: white;
+  /* background-color: #d7d9ce; */
 }
 
 .content {
@@ -22,17 +23,18 @@ body {
   justify-content: center;
   padding: 20;
   margin: 0;
-  background-color: #0c7489; /* Set the background color for the navigation bar */
+  font-weight: bold;
+  background-color: black; /* Set the background color for the navigation bar */
 }
 
 .nav-link {
   text-decoration: none;
-  color: #d7d9ce;
+  color: white;
   padding: 10px 20px;
 }
 
 .nav-link:hover {
-  background-color: #13505b;
+  background-color: darkgrey;
 }
 
 .contact-form {
@@ -62,7 +64,7 @@ body {
 }
 
 .contact-form textarea {
-  height: 150px; /* Adjust the height of the textarea */
+  height: auto; /* Adjust the height of the textarea */
 }
 
 .contact-form button {
@@ -83,10 +85,14 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: sticky;
+  position: fixed;
   bottom: 0;
-  background-color: #0c7489; /* Set the background color for the whole footer container */
+  left: 0;
+  width: 100%;
+  color: white;
+  background-color: black; /* Set the background color for the whole footer container */
 }
+
 
 .social-icons {
   margin-bottom: 10px;
@@ -96,7 +102,7 @@ body {
   display: inline-block;
   margin: 0 10px; /* Update the margin values to add space between the icons */
   font-size: 30px; /* Adjust the font size to make the icons bigger */
-  color: #d7d9ce; /* Set the color to black */
+  color: white; /* Set the color to black */
 }
 
 .footer-text {
@@ -116,10 +122,26 @@ body {
 .aboutContainer {
   display: flex;
   align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.particleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contentContainer {
+  /* background-color: #d7d9ce; */
+  padding: 20px;
 }
 
 .picDiv {
-  display: flex;
+  flex: 0 0 25%;
   max-width: 25%;
 }
 
@@ -130,5 +152,28 @@ body {
 
 .textDiv {
   flex: 1;
-  margin-left: 10px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background-color: lightgray;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: darkgray;
 }

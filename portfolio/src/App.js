@@ -8,6 +8,7 @@ import Contact from './components/contact';
 import Resume from './components/resume';
 import './App.css';
 
+
 const App = () => {
   return (
     <Router>
