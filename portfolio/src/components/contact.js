@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [showError, setShowError] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
@@ -19,9 +19,9 @@ const Contact = () => {
     console.log({ name, email, message });
 
     // Clear the form inputs
-    setName('');
-    setEmail('');
-    setMessage('');
+    setName("");
+    setEmail("");
+    setMessage("");
     setShowError(false);
     setSubmitted(true);
   };
@@ -48,21 +48,47 @@ const Contact = () => {
     <div className="contact-form">
       <h2>Contact Me</h2>
       {submitted ? (
-        <p className="thank-you-message">Thank you! I will be in contact with you soon.</p>
+        <p className="thank-you-message">
+          Thank you! I will be in contact with you soon.
+          <br />
+          If you need to contact me sooner, reach me at 303-802-6044 or
+          Kyleshakely@yahoo.com
+        </p>
       ) : (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name:</label>
-            <input type="text" id="name" value={name} onChange={handleNameChange} placeholder="Enter your name" />
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={handleNameChange}
+              placeholder="Enter your name (Required)"
+            />
           </div>
           <div className="form-group">
             <label htmlFor="email">Email:</label>
-            <input type="text" id="email" value={email} onChange={handleEmailChange} placeholder="Enter your email address" />
-            {showError && <span className="error-message">Please enter a valid email address.</span>}
+            <input
+              type="text"
+              id="email"
+              value={email}
+              onChange={handleEmailChange}
+              placeholder="Enter your email address (Required)"
+            />
+            {showError && (
+              <span className="error-message">
+                Please enter a valid email address.
+              </span>
+            )}
           </div>
           <div className="form-group">
             <label htmlFor="message">Message:</label>
-            <textarea id="message" value={message} onChange={handleMessageChange} placeholder="Enter your message"></textarea>
+            <textarea
+              id="message"
+              value={message}
+              onChange={handleMessageChange}
+              placeholder="Enter your message (Required)"
+            ></textarea>
           </div>
           <button type="submit">Submit</button>
         </form>
