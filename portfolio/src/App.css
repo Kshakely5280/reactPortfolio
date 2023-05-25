@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   min-height: 100%;
   color: white;
-  /* background-color: #d7d9ce; */
 }
 
 .content {
@@ -24,7 +23,7 @@ body {
   padding: 20;
   margin: 0;
   font-weight: bold;
-  background-color: black; /* Set the background color for the navigation bar */
+  background-color: black;
 }
 
 .nav-link {
@@ -38,45 +37,46 @@ body {
 }
 
 .contact-form {
-  background-color: #d7d9ce; /* Set the background color for the contact form */
+  background-color: #d7d9ce;
   padding: 20px;
+  margin-bottom: 100px;
 }
 
 .contact-form h2 {
-  color: #13505b; /* Set the text color for the heading */
+  color: #13505b;
   margin-bottom: 20px;
 }
 
 .contact-form label {
-  color: #d7d9ce; /* Set the text color for the labels */
+  color: #d7d9ce;
 }
 
 .contact-form input,
 .contact-form textarea {
-  background-color: #f2f2f2; /* Set the background color for the input fields and textarea */
+  background-color: #f2f2f2;
   border: none;
   padding: 10px;
   margin-bottom: 10px;
   margin-right: 50px;
-  width: 100%; /* Add this line to set the width of the input fields and textarea */
-  font-family: inherit; /* Use the same font as the parent element */
+  width: 100%;
+  font-family: inherit;
   font-size: inherit;
 }
 
 .contact-form textarea {
-  height: 50rem; /* Adjust the height of the textarea */
+  height: 50rem;
 }
 
 .contact-form button {
-  background-color: #0c7489; /* Set the background color for the submit button */
-  color: #d7d9ce; /* Set the text color for the submit button */
+  background-color: #0c7489;
+  color: #d7d9ce;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: #13505b; /* Set the background color for the submit button on hover */
+  background-color: #13505b;
 }
 
 .footer-container {
@@ -90,9 +90,8 @@ body {
   left: 0;
   width: 100%;
   color: white;
-  background-color: black; /* Set the background color for the whole footer container */
+  background-color: black;
 }
-
 
 .social-icons {
   margin-bottom: 10px;
@@ -100,9 +99,9 @@ body {
 
 .social-icons a {
   display: inline-block;
-  margin: 0 10px; /* Update the margin values to add space between the icons */
-  font-size: 30px; /* Adjust the font size to make the icons bigger */
-  color: white; /* Set the color to black */
+  margin: 0 10px;
+  font-size: 30px;
+  color: white;
 }
 
 .footer-text {
@@ -136,7 +135,6 @@ body {
 }
 
 .contentContainer {
-  /* background-color: #d7d9ce; */
   padding: 20px;
 }
 
@@ -231,11 +229,13 @@ body {
 
 .project-link:hover {
   text-decoration: underline;
+  background-color: #053e49;
 }
 
 .resume-container {
   padding: 20px;
   border-radius: 10px;
+  margin-left: 5rem;
 }
 
 .resume-title {
@@ -256,10 +256,25 @@ body {
   list-style-type: none;
   color: white;
   padding: 0;
-  margin: 0;
 }
 
 .resume-topics-list li {
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+.resumeLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0c7489;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.resumeLink:hover {
+  text-decoration: underline;
+  background-color: #053e49;
 }

@@ -1,3 +1,5 @@
+//Graciously used from the example at github.com/matteobrunni
+
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 //import { loadFull } from "tsparticles"; // loads tsparticles

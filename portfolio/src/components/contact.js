@@ -15,10 +15,6 @@ const Contact = () => {
       return;
     }
 
-    // Process the form submission
-    console.log({ name, email, message });
-
-    // Clear the form inputs
     setName("");
     setEmail("");
     setMessage("");

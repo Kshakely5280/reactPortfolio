@@ -24,8 +24,8 @@ const Resume = () => {
   return (
     <div className="resume-container">
         <Particles className="particleContainer" />
-      <h2 className="resume-title">Resume</h2>
-      <h3 className="resume-subtitle">Coding Topics Covered</h3>
+      <h2 className="resume-title">Resume Details</h2>
+      <h3 className="resume-subtitle">Coding bootcamp Topics Covered</h3>
       <ul className="resume-topics-list">
         {codingTopics.map((topic, index) => (
           <li key={index}>{topic}</li>
