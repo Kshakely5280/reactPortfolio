@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles from './particles';
 
+
 const Resume = () => {
   const codingTopics = [
     'HTML',
@@ -30,8 +31,9 @@ const Resume = () => {
           <li key={index}>{topic}</li>
         ))}
       </ul>
+      <a className='resumeLink' href='https://drive.google.com/drive/folders/1TvwZQVVzVTex9QjaiKYVvncPLBxORJSe?usp=sharing'>View Resume</a>
     </div>
   );
 };
-// needs a link for resume download
+
 export default Resume;
