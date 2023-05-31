@@ -1,4 +1,4 @@
-//Graciously used from the example at github.com/matteobrunni
+//Graciously used for technology knowledge expansion from the example at github.com/matteobrunni
 
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim

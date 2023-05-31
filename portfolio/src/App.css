@@ -173,7 +173,7 @@ body {
 }
 
 .button:hover {
-  background-color: darkgray;
+  background-color: lightgray;
 }
 
 .project-list {
@@ -229,7 +229,6 @@ body {
 
 .project-link:hover {
   text-decoration: underline;
-  background-color: #053e49;
 }
 
 .resume-container {
