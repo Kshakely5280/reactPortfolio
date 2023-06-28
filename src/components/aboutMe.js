@@ -12,16 +12,13 @@ const AboutMe = () => {
     <div className="aboutContainer">
       <Particles className="particleContainer" />
       <div className="contentContainer">
-        <div className="picDiv">
-          {showContent && <img src="./headshot.jpg" alt="Headshot" />}
-        </div>
         <div className="textDiv">
           {!showContent}
           {showContent && (
             <>
               <p>
                 Hi there! My name is Kyle Shakely, and I'm an aspiring
-                programmer. Welcome to my coding portfolio website! Try clicking around on the background.
+                programmer. Welcome to my coding portfolio website!
               </p>
               <p>
                 Apart from coding, I have a deep passion for cars, hiking, and
