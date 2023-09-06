@@ -12,7 +12,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
       </div>
-      <div className="footer-text">GoBabyGo 2023</div>
+      <div className="footer-text">Kyleshakely@yahoo.com 2023</div>
     </footer>
   );
 };
